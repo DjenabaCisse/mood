@@ -1,0 +1,38 @@
+.logo-navbar {
+  border-radius: 65px;
+}
+
+.navbar {
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  background-color: darkcyan;
+  width: 100%;
+  bottom: 0;
+}
+
+.logo {
+  position: relative;
+  width: 4.5em;
+  height: 0;
+}
+
+.logo .wrapper {
+  position: absolute;
+  bottom: -20px;
+  left: -15px;
+  width: 180%;
+  height: 0;
+  padding-bottom: 180%;
+  border-radius: 100%;
+  background-color: darkcyan;
+}
+
+.logo img {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.nav-link {
+  color: white !important;
+}
