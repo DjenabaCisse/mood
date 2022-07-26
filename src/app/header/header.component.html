@@ -1,19 +1,23 @@
 <nav class="navbar justify-content-center">
   <ul class="nav">
-    <li class="nav-item"><a class="nav-link" href="#">Météo</a></li>
-
-    <li class="nav-item" style="margin-right: 50px">
-      <a class="nav-link" href="#">Activités</a>
+    <li class="nav-item" routerLinkActive="active">
+      <a class="nav-link" href="#">Météo</a>
     </li>
-    <li class="nav-item">
+
+    <li routerLinkActive="active" class="nav-item" style="margin-right: 50px">
+      <a class="nav-link" routerLink="/restapi">Activités</a>
+    </li>
+    <li routerLinkActive="active" class="nav-item">
       <a class="nav-link logo" href="#"
         ><div class="wrapper">
           <img class="logo-navbar" src="assets/img/logo.png" /></div
       ></a>
     </li>
-    <li class="nav-item" style="margin-left: 50px">
-      <a class="nav-link" href="#">Journal</a>
+    <li routerLinkActive="active" class="nav-item" style="margin-left: 50px">
+      <a class="nav-link" routerLink="/register">Journal</a>
     </li>
-    <li class="nav-item"><a class="nav-link" href="#">Motivation</a></li>
+    <li routerLinkActive="active" class="nav-item">
+      <a class="nav-link" routerLink="/login">Motivation</a>
+    </li>
   </ul>
 </nav>
